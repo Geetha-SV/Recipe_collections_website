@@ -1,0 +1,19 @@
+body {
+    background: rgba(0, 0, 0, 0.7) url('foods.jpeg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+div {
+    color: aliceblue width: 300px;
+    height: 180px;
+    border: 2px solid white(8, 8, 8);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    float: left;
+    font-style: oblique;
+    text-align: center;
+}
