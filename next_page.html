@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <link rel="stylesheet" href="next_page.css">
+</head>
+
+<body>
+    <h1>Recipe Details</h1>
+
+    <div>
+        <strong>Name:</strong>
+        <span id="recipeName"></span>
+    </div>
+
+    <div>
+        <strong>Ingredients:</strong>
+        <span id="recipeIngredients"></span>
+    </div>
+
+    <div>
+        <strong>Instructions:</strong>
+        <span id="recipeInstructions"></span>
+    </div>
+</body>
+<script>
+    // Retrieve data from localStorage
+    var name = localStorage.getItem('recipeName');
+    var ingredients = localStorage.getItem('recipeIngredients');
+    var instructions = localStorage.getItem('recipeInstructions');
+
+    // Display the data
+    document.getElementById('recipeName').innerText = name || 'N/A';
+    document.getElementById('recipeIngredients').innerText = ingredients || 'N/A';
+    document.getElementById('recipeInstructions').innerText = instructions || 'N/A';
+</script>
+
+</html>

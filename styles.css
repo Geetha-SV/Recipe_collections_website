@@ -1,0 +1,51 @@
+body {
+    background: rgba(0, 0, 0, 0.7) url('foods.jpeg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body h1 {
+    color: orangered inset(253, 252, 252);
+    margin-left: 10px;
+    cursor: pointer;
+    align-content: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    top: 40%;
+    align-content: center;
+    left: 30%;
+}
+
+.content h1 {
+    color: orangered inset(253, 252, 252);
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container h1 {
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.content button {
+    background-color: #0c0c0c;
+    border: none;
+    color: orangered;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
